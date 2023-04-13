@@ -1,0 +1,61 @@
+{
+  "entities": [
+    {
+      "x": 0,
+      "y": 1,
+      "type": "player"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "type": "exit"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "type": "treasure"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "type": "boulder"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "type": "switch"
+    },
+    {
+      "x": 0,
+      "y": 3,
+      "type": "spider"
+    }
+  ],
+  "goal-condition": {
+    "goal": "AND",
+    "subgoals": [
+      {
+        "goal": "AND",
+        "subgoals": [
+          {
+            "goal": "exit"
+          },
+          {
+            "goal": "treasure"
+          }
+        ]
+      },
+      {
+        "goal": "AND",
+        "subgoals": [
+          {
+            "goal": "enemy"
+          },
+          {
+            "goal": "boulders"
+          }
+        ]
+      }
+    ]
+  }
+}

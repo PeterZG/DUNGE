@@ -1,0 +1,37 @@
+{
+    "entities": [
+        {
+            "x": 2,
+            "y": 2,
+            "type": "player"
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "type": "boulder"
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "type": "mercenary"
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "type": "wall"
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "type": "wall"
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "type": "wall"
+        }
+    ],
+    "goal-condition": {
+        "goal": "exit"
+    }
+}
